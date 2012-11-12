@@ -34,6 +34,7 @@ module Filetype
     :lisp         => %w[ lisp lsp ],
     :lua          => %w[ lua ],
     :make         => /\A[Mm]akefile\z/,
+    :markdown     => %w[ md markdown pandoc],
     :objc         => %w[ m h ],
     :ocaml        => %w[ ml mli ],
     :pcap         => %w[ pcap ],
